@@ -9,14 +9,14 @@ function changeBackgroundImage() {
     currentImageIndex = (currentImageIndex + 1) % backgroundImages.length;
     body.style.backgroundImage = `url(${backgroundImages[currentImageIndex]})`;
 }
-// Get the button element by its ID
+
 var myButton = document.getElementById("regbtn");
 
-// Add a click event listener to the button
+
 myButton.addEventListener("click", function() {
-  // Code to execute when the button is clicked
+  
   alert("Registration Successful");
-  // You can replace the alert with any code you want to run on button click
+  
 });
 setInterval(changeBackgroundImage, 3000);
 
