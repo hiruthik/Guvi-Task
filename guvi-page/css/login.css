@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    background-image: url('assets/photo1701004977 (1).jpeg');
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: rgba(66, 26, 112, 0.171);
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 36px;
+    width: 450px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
+.form-container.hidden {
+    display: none;
+    transform: perspective(1000px) rotateY(180deg);
+}
+
+.form-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.form-inner.flipped {
+    transform: rotateY(180deg);
+}
+
+h1, h2 {
+    margin-bottom: 24px;
+}
+
+input {
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    background-color: #5c0a92c2;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+    cursor: pointer;
+    color: #007bff;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container .show-password-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 14px;
+}
