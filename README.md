@@ -24,6 +24,7 @@ maintain page responsiveness. ✅
 -  The login session should be maintained only using browser localstorage ✅
 -  Do not use PHP Session ✅
 -  Register, Login, validation, Update user profile, edit option✅
+-  Folder and Filer Structure Maintained✅
 
 # Flow
 Register > Login > Profile
