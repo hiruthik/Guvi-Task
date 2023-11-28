@@ -1,5 +1,16 @@
 # Guvi-Task
-Task Given ,Completed.
+Create a signup page where a user can register and a login page 
+to log in with the details provided during registration
+
+# Tech Stack Used 
+● HTML
+● CSS
+● JS
+● PHP
+● Mongo
+● Mysql
+
+# Task Given ,Completed.
 -  HTML, JS, CSS, and PHP in separate files none of the 
 code must co-exist in the same file.
 ✅
@@ -13,3 +24,7 @@ maintain page responsiveness. ✅
 -  The login session should be maintained only using browser localstorage ✅
 -  Do not use PHP Session ✅
 -  Register, Login, validation, Update user profile, edit option✅
+
+# Flow
+Register > Login > Profile
+
