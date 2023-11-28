@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+        <link rel="stylesheet" href="css/profile.css">
+
+
+</head>
+<body>
+    <nav class="navtop">
+        <div>
+            <a href="profile.php">Profile</a>
+            <a href="index.html">Logout</a>
+            <h1>GUVI HOME PAGE</h1>
+        </div>
+    </nav>
+    <div class="content">
+        <h2>Home Page</h2>
+        <h2 id="welcome"></h2>
+        <form id="profileForm" method="post" action="#">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+
+            <label for="gender">Gender:</label>
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender" required><br>
+
+            <label for="age">Age:</label>
+            <input type="text" name="age" id="age" placeholder="Enter your age" required><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="text" name="dob" id="dob" placeholder="Enter your date of birth" required><hr>
+
+            <input type="submit" value="Update Profile">
+        </form>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+         <script src="js/profile.js"></script>
+</body>
+</html>
