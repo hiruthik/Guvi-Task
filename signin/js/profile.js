@@ -12,7 +12,7 @@ $(document).ready(function() {
     $('form').submit(function(e) {
         e.preventDefault();
 
-        var formArray = $(this).serializeArray(); // Use $(this) to reference the form
+        var formArray = $(this).serializeArray(); 
 
         var details = {};
         formArray.forEach(function(item) {
@@ -23,7 +23,7 @@ $(document).ready(function() {
         $.ajax({
             type: 'POST',
             url: 'php/profile.php',
-            data: details, // Remove the extra parenthesis
+            data: details,
             dataType: 'json',
             success: function(response) {
                 alert(response);
