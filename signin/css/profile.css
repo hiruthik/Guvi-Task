@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navtop {
+    background-color: #000;
+    /* Black color */
+    height: 60px;
+    width: 100%;
+    border: 0;
+}
+
+.navtop div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+
+.navtop div a {
+    text-decoration: none;
+    color: #0dba4b;
+    /* Castel Green color */
+    padding: 10px;
+}
+
+.navtop div h1 {
+    font-size: 24px;
+    color: #0dba4b;
+    /* Castel Green color */
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.content h2 {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 22px;
+    border-bottom: 1px solid #0dba4b;
+    /* Castel Green color */
+    color: #0dba4b;
+}
+
+.content p {
+    text-align: center;
+    color: #5b6574;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #0dba4b;
+    /* Castel Green color */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #0dba4b;
+    /* Castel Green color */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0dba4b;
+    /* Castel Green color */
+    color: #000;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+}
+/* Your existing styles */
+
+.card {
+    background-color: #000;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0dba4b;
+    /* Castel Green color */
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Your existing styles */
+
+.navbar {
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-title h1 {
+    color: #0dba4b;
+}
+
+.card {
+    background-color: #000;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background-color: #0dba4b;
+    color: #000;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* Your existing styles */
+
+/* Additional styles for profile page */
+#gender,
+#age,
+#dob {
+    margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .register {
+        margin: 20px;
+    }
+}
+/* Your existing styles */
+
+/* Additional styles for profile page */
+.logout-btn {
+    background-color: #0dba4b;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+}
+
+.logout-btn:hover {
+    background-color: #333;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .register {
+        margin: 20px;
+    }
+}
