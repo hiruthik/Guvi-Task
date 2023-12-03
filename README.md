@@ -10,6 +10,7 @@ to log in with the details provided during registration
 ● Mongo
 ● Mysql
 
+
 # Task Given ,Completed.
 -  HTML, JS, CSS, and PHP in separate files none of the 
 code must co-exist in the same file.
@@ -31,3 +32,7 @@ Register > Login > Profile
 
 #Demo
 https://hiruthik-guvitask.000webhostapp.com/index.html
+![Screenshot (222)](https://github.com/hiruthik/Guvi-Task/assets/82458215/84cb1875-1898-406f-af3c-7c186ac462c1)
+![Screenshot (225)](https://github.com/hiruthik/Guvi-Task/assets/82458215/82fa5351-957b-412d-a9be-3ec4e5f8b910)
+![Screenshot (224)](https://github.com/hiruthik/Guvi-Task/assets/82458215/6654ed60-490e-4edd-988d-7762503afc3c)
+![Screenshot (223)](https://github.com/hiruthik/Guvi-Task/assets/82458215/1ec2d3e8-fad5-4358-a800-7c6bb1b118c7)
